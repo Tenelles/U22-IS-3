@@ -22,6 +22,11 @@ void SpigotFinder::printPi() const
 
 }
 
+int SpigotFinder::getOperationsCount() const
+{
+	return _operationsCounter;
+}
+
 void SpigotFinder::computePi()
 {
 	for (size_t i = 0; i <= _size; i++)

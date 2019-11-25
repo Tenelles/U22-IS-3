@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	SpigotFinder pi(300);
+	SpigotFinder pi(10);
 	pi.printPi();
 	return 0;
 }

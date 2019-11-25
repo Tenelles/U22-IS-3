@@ -11,6 +11,7 @@ public:
 	SpigotFinder(int size);
 
 	void printPi() const;
+	int getOperationsCount() const;
 
 private:
 	void computePi();
