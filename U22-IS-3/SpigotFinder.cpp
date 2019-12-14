@@ -9,7 +9,7 @@ SpigotFinder::SpigotFinder(int size)
 
 	computePi();
 
-	_pi.pop_back(); // Убираем "лишнюю цифру"
+	_pi.pop_back(); // Removing "excess" digit
 }
 
 void SpigotFinder::printPi() const
