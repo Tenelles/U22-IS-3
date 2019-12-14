@@ -7,7 +7,12 @@ using namespace std;
 
 int main()
 {
-	SpigotFinder pi(10);
+	int size;
+	do {
+		cout << "Enter number of signs PI: ";
+		cin >> size;	
+	} while (size < 0);
+	SpigotFinder pi(size);
 	pi.printPi();
 	return 0;
 }

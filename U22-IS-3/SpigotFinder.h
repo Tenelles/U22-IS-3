@@ -19,6 +19,7 @@ private:
 
 	vector<short int> _pi;
 	vector<int> _remains;
+	int _remainsSize;
 	int _transferNumber;
 	int _operationsCounter;
 	int _size;
